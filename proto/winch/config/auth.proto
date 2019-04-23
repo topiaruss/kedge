@@ -24,7 +24,7 @@ message AuthSource {
 }
 
 /// KubernetesAccess is an convenient way of specifying auth for backend. It grabs the data inside already used
-/// ~/.kube/config (or any specified config path) and deducts the auth type based on that. NOTE that only these types are
+/// ~/.kube/config (or any specified config path) and deduces the auth type based on that. NOTE that only these types are
 /// supported:
 /// - OIDC
 message KubernetesAccess {
